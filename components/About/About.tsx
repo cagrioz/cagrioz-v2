@@ -13,9 +13,9 @@ function About() {
                     <Image src={BannerImg} alt="Cagri Oz" layout="fill" objectFit="cover" />
                 </div>
                 <div className="sm:basis-3/5">
-                    <h1 className="text-3xl sm:text-4xl text-gray-100 font-extrabold">
+                    <h3 className="text-3xl sm:text-4xl text-gray-100 font-extrabold">
                         I'm <span className="fancy-title-sub">Cagri Oz</span>
-                    </h1>
+                    </h3>
                     <div className="text-lg font-light text-gray-300 mt-5 tracking-wide flex flex-col gap-3">
                         <p>
                             😎 I have been coding for nearly 6 years. I'm a full-stack developer with undying passion of
@@ -26,7 +26,7 @@ function About() {
 
                         <p className="font-semibold underline">My preferred weapons of choice 👇</p>
 
-                        <ul className="grid grid-cols-2 gap-x-2 gap-y-3 ">
+                        <ul className="grid grid-cols-2 gap-x-2 gap-y-3">
                             <li className="flex items-center gap-2">
                                 <CheckIcon className="h-5 w-5 inline-flex bg-sky-400 text-white rounded-full" />{' '}
                                 JavaScript
@@ -54,10 +54,7 @@ function About() {
                         </ul>
 
                         <div className="mt-3">
-                            <a
-                                className="py-2 px-5 rounded-3xl border inline-flex border-sky-400 text-sky-400 font-bold hover:bg-sky-500 hover:text-white transition duration-200 ease-in-out"
-                                href="https://github.com/cagrioz"
-                            >
+                            <a className="secondary-cta" href="https://github.com/cagrioz">
                                 My Github
                             </a>
                         </div>

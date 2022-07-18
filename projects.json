@@ -1,0 +1,13 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Project 1",
+            "description": "This is the project 1's description <span>with custom html</span>",
+            "tech": ["HTML", "CSS", "JavaScript"],
+            "image": "https://via.placeholder.com/300x200",
+            "github_url": "https://www.google.com",
+            "demo_url": "https://www.google.com"
+        }
+    ]
+}
