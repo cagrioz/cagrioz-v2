@@ -41,7 +41,7 @@ function Header() {
                     href="https://wa.me/+16282610782"
                     className="shadow-md shadow-cyan-900 border-0 inline-flex py-4 px-7 lg:py-6 lg:px-12 lg:text-2xl bg-cyan-500 hover:bg-cyan-600 hover:scale-105 transition duration-200 ease-in-out text-white font-bold rounded-[5rem]"
                 >
-                    Let's discuss!
+                    Contact me!
                 </a>
             </div>
         </header>
