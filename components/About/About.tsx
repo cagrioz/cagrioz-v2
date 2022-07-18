@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 
-import BannerImg from '../../assets/img/me.jpg';
+import BannerImg from '../../assets/img/bball.jpg';
 
 import { CheckIcon } from '@heroicons/react/solid';
 
