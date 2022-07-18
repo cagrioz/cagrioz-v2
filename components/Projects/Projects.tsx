@@ -21,10 +21,9 @@ function Projects() {
             github: [
                 {
                     label: 'Github Repo',
-                    url: ' https://www.google.com',
+                    url: ' https://github.com/cagrioz/ecommerce-api',
                 },
             ],
-            demo_url: 'https://www.google.com',
         },
         {
             id: 2,
@@ -36,10 +35,10 @@ function Projects() {
             github: [
                 {
                     label: 'Github Repo',
-                    url: ' https://www.google.com',
+                    url: ' https://github.com/cagrioz/airbnb-dev',
                 },
             ],
-            demo_url: 'https://www.google.com',
+            demo_url: 'https://airbnb-dev.vercel.app/',
         },
         {
             id: 3,
@@ -51,14 +50,14 @@ function Projects() {
             github: [
                 {
                     label: 'Github HTML',
-                    url: ' https://www.google.com',
+                    url: ' https://github.com/cagrioz/Rache-HTML',
                 },
                 {
                     label: 'Github WordPress',
-                    url: ' https://www.google.com',
+                    url: ' https://github.com/cagrioz/Rache',
                 },
             ],
-            demo_url: 'https://www.google.com',
+            demo_url: 'https://cagrioz.com/rache/',
         },
         {
             id: 4,
@@ -70,10 +69,9 @@ function Projects() {
             github: [
                 {
                     label: 'Github WordPress',
-                    url: ' https://www.google.com',
+                    url: ' https://github.com/cagrioz/Callie',
                 },
             ],
-            demo_url: 'https://www.google.com',
         },
         {
             id: 5,
@@ -85,10 +83,10 @@ function Projects() {
             github: [
                 {
                     label: 'Github Repo',
-                    url: ' https://www.google.com',
+                    url: ' https://github.com/cagrioz/bring-landing',
                 },
             ],
-            demo_url: 'https://www.google.com',
+            demo_url: 'https://bring-landing.vercel.app',
         },
         {
             id: 6,
@@ -96,7 +94,7 @@ function Projects() {
             description: 'A WordPress website that is used for a learning management system with active +10K students.',
             tech: ['Elementor Builder', 'PHP / WordPress', 'JS (jQuery)', 'CSS3 & Bootstrap'],
             image: Project6,
-            demo_url: 'https://www.google.com',
+            demo_url: 'https://www.radikaluzem.com',
         },
         {
             id: 7,
@@ -107,7 +105,7 @@ function Projects() {
             github: [
                 {
                     label: 'Github Repo',
-                    url: ' https://www.google.com',
+                    url: ' https://github.com/cagrioz/FitPods',
                 },
             ],
         },
