@@ -11,6 +11,7 @@ import { loadFull } from 'tsparticles';
 
 import Projects from '../components/Projects/Projects';
 import Experiences from '../components/Experiences/Experiences';
+import Footer from '../components/Footer/Footer';
 
 const Home: NextPage = () => {
     const particlesInit = async (main: any) => {
@@ -48,6 +49,9 @@ const Home: NextPage = () => {
 
             {/* Experiences */}
             <Experiences />
+
+            {/* Footer */}
+            <Footer />
         </div>
     );
 };

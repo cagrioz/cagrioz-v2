@@ -7,25 +7,6 @@ import Image from 'next/image';
 function Experiences() {
     const experiences = [
         {
-            id: 1,
-            img: EnvatoLogo,
-            date: 'Mar 2017 - Mar 2019',
-            company: 'Envato Market',
-            title: 'Web Developer (Freelance)',
-            description: 'Designed PSD websites and converted them to modular and clean HTML & WordPress websites.',
-            stack: ['HTML5', 'CSS3 / Bootstrap', 'JS (jQuery)', 'PHP / WordPress'],
-        },
-        {
-            id: 2,
-            img: OSFLogo,
-            date: 'July 2021 - Aug 2021',
-            company: 'OSF Digital',
-            title: 'Backend Developer (Full-Time)',
-            description:
-                'I have developed an e-commerce website via RESTful API; the technologies I used were Node.js, Express.js, and server-side rendering with template engines such as Pug and EJS.',
-            stack: ['Node.js', 'Express.js', 'EJS', 'Mocha & Chai (Unit Testing)', 'JIRA', 'CSS'],
-        },
-        {
             id: 3,
             img: MediumLogo,
             date: 'June 2020 - Present',
@@ -44,6 +25,25 @@ function Experiences() {
             description:
                 'Working with the clients all over the world; designing and creating high-quality PSD, ReactJS, WordPress websites for them.',
             url: 'https://upwork.com/freelancers/cagrioz',
+        },
+        {
+            id: 2,
+            img: OSFLogo,
+            date: 'July 2021 - Aug 2021',
+            company: 'OSF Digital',
+            title: 'Backend Developer (Full-Time)',
+            description:
+                'I have developed an e-commerce website via RESTful API; the technologies I used were Node.js, Express.js, and server-side rendering with template engines such as Pug and EJS.',
+            stack: ['Node.js', 'Express.js', 'EJS', 'Mocha & Chai (Unit Testing)', 'JIRA', 'CSS'],
+        },
+        {
+            id: 1,
+            img: EnvatoLogo,
+            date: 'Mar 2017 - Mar 2019',
+            company: 'Envato Market',
+            title: 'Web Developer (Freelance)',
+            description: 'Designed PSD websites and converted them to modular and clean HTML & WordPress websites.',
+            stack: ['HTML5', 'CSS3 / Bootstrap', 'JS (jQuery)', 'PHP / WordPress'],
         },
     ];
 
