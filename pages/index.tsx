@@ -25,8 +25,8 @@ const Home: NextPage = () => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <div className="h-screen flex flex-col bg-gradient-to-t from-slate-800 to-slate-900">
-                <div className="h-[80%] md:h-[85%]">
+            <div className="md:h-screen flex flex-col bg-gradient-to-t from-slate-800 to-slate-900">
+                <div className="h-full md:h-[85%] pb-20">
                     <Header />
 
                     <Particles
@@ -37,7 +37,7 @@ const Home: NextPage = () => {
                     />
                 </div>
 
-                <div className="h-[20%] md:h-[15%] flex flex-col justify-center bg-gradient-to-t from-slate-800 to-slate-900 grayscale-[.4]">
+                <div className="h-full py-4 md:h-[15%] flex flex-col justify-center bg-gradient-to-t from-slate-800 to-slate-900 grayscale-[.4]">
                     <Partners />
                 </div>
             </div>

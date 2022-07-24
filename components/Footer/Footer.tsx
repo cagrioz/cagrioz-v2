@@ -21,7 +21,7 @@ const Footer = () => {
                     className="footer-icon"
                 />
             </div>
-            <div className="bg-slate-900 text-center text-gray-400 py-5 border-t border-slate-700 border-dotted mt-5 shadow-xl shadow-slate-400">
+            <div className="bg-slate-900 text-center px-5 text-gray-400 py-5 border-t border-slate-700 border-dotted mt-5 shadow-xl shadow-slate-400">
                 © {new Date().getFullYear()} - Created with ❤️ by Cagri Oz
             </div>
         </footer>
