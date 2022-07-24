@@ -1,8 +1,10 @@
 import OSFLogo from '../../assets/img/osf.jpeg';
 import EnvatoLogo from '../../assets/img/envato.png';
 import UpworkLogo from '../../assets/img/upwork.png';
+import FiverrLogo from '../../assets/img/fiverr.png';
 import MediumLogo from '../../assets/img/medium.png';
 import Image from 'next/image';
+import { FolderRemoveIcon } from '@heroicons/react/solid';
 
 function Experiences() {
     const experiences = [
@@ -26,6 +28,17 @@ function Experiences() {
                 'Working with the clients all over the world; designing and creating high-quality PSD, ReactJS, WordPress websites for them.',
             url: 'https://upwork.com/freelancers/cagrioz',
         },
+        {
+            id: 5,
+            img: FiverrLogo,
+            date: 'Dec 2018 - Present',
+            company: 'Fiverr',
+            title: 'Web Developer (Level-one Seller)',
+            description:
+                'Working with the clients all over the world; designing and creating high-quality PSD, ReactJS, WordPress websites for them.',
+            url: 'https://fiverr.com/cagrioz',
+        },
+
         {
             id: 2,
             img: OSFLogo,

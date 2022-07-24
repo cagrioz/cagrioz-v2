@@ -25,12 +25,34 @@ const Footer = () => {
                     className="border border-gray-500 rounded-full hover:opacity-75 transition duration-200"
                 />
                 <SocialIcon
+                    url="https://upwork.com/freelancers/cagrioz"
+                    fgColor="#ccc"
+                    className="border border-gray-500 rounded-full hover:opacity-75 transition duration-200"
+                />
+                <SocialIcon
+                    url="https://medium.com/@cagrioz"
+                    fgColor="#ccc"
+                    className="border border-gray-500 rounded-full hover:opacity-75 transition duration-200"
+                />
+                <SocialIcon
                     url="https://github.com/cagrioz"
                     fgColor="#ccc"
                     className="border border-gray-500 rounded-full hover:opacity-75 transition duration-200"
                 />
                 <SocialIcon
                     url="https://www.tiktok.com/@cagrioz30"
+                    fgColor="#ccc"
+                    className="border border-gray-500 rounded-full hover:opacity-75 transition duration-200"
+                />
+                <SocialIcon
+                    url="mailto:devcagri@gmail.com"
+                    fgColor="#ccc"
+                    className="border border-gray-500 rounded-full hover:opacity-75 transition duration-200"
+                />
+                <SocialIcon
+                    url="https://wa.me/16282610782"
+                    network="whatsapp"
+                    bgColor="#1ca14d"
                     fgColor="#ccc"
                     className="border border-gray-500 rounded-full hover:opacity-75 transition duration-200"
                 />
