@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import FiverrP from '../../assets/img/fiverr.png';
+import FiverrP from '../../assets/img/fiverr-p.webp';
 import MediumP from '../../assets/img/medium-p.png';
 import UpworkP from '../../assets/img/upwork-p.png';
 import OSFDigitalP from '../../assets/img/osf-p.png';
