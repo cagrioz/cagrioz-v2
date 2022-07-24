@@ -71,14 +71,14 @@ function Experiences() {
                             key={`experience-${experience.id}`}
                             className="flex flex-col items-center gap-2 border-b border-t border-dotted border-slate-600 py-16 px-8 bg-slate-800"
                         >
-                            <div className="relative h-16 w-16 rounded-lg overflow-hidden">
+                            <div className="relative h-16 w-16 rounded-lg overflow-hidden mb-2">
                                 <Image src={experience.img} alt={experience.company} layout="fill" objectFit="cover" />
                             </div>
                             <time className="text-gray-400 text-lg tracking-widest">{experience.date}</time>
                             <h1 className="text-3xl text-gray-200 font-extrabold tracking-wide">
                                 {experience.company}
                             </h1>
-                            <span className="text-lg text-gray-400 font-bold">{experience.title}</span>
+                            <span className="text-lg text-gray-400 font-bold text-center">{experience.title}</span>
                             <p className="text-gray-300 font-extralight tracking-wide text-center text-xl">
                                 {experience.description}
                             </p>
