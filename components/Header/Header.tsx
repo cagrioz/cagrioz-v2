@@ -19,7 +19,7 @@ function Header() {
                             I build amazing UI/UX experiences 🖌
                         </p>
                         <p className="hidden md:inline-flex text-gray-300 text-xl">
-                            Coding modular application with using best practices 💻
+                            Coding modular applications with using best practices 💻
                         </p>
                     </div>
                 </div>
