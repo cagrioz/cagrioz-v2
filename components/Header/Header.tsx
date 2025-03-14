@@ -11,14 +11,14 @@ function Header() {
                         Hi, My Name Is
                     </h3>
                     <div>
-                        <h1 className="fancy-title">Cagri Oz.</h1>
+                        <h1 className="fancy-title">Cagri Ozarpaci.</h1>
                         <h1 className="fancy-title">I am a full-stack dev.</h1>
                     </div>
-                    <div>
-                        <p className="hidden md:inline-flex text-gray-300 text-xl">
+                    <div className="mt-4">
+                        <p className="hidden md:inline-flex text-gray-200 text-2xl">
                             I build amazing UI/UX experiences 🖌
                         </p>
-                        <p className="hidden md:inline-flex text-gray-300 text-xl">
+                        <p className="hidden md:inline-flex text-gray-200 text-2xl mt-2">
                             Coding modular applications with using best practices 💻
                         </p>
                     </div>
@@ -39,7 +39,7 @@ function Header() {
             <div className="mx-auto">
                 <a
                     href="https://wa.me/+16282610782"
-                    className="shadow-md shadow-cyan-900 border-0 inline-flex py-4 px-7 lg:py-6 lg:px-12 lg:text-2xl bg-cyan-500 hover:bg-cyan-600 hover:scale-105 transition duration-200 ease-in-out text-white font-bold rounded-[5rem]"
+                    className="shadow-md shadow-cyan-900 border-0 inline-flex py-4 px-7 lg:py-5 lg:px-12 lg:text-2xl bg-cyan-600 hover:bg-cyan-500 hover:scale-105 transition duration-200 ease-in-out text-white font-bold rounded-[5rem]"
                 >
                     Contact me!
                 </a>

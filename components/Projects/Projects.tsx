@@ -9,8 +9,24 @@ import Project5 from '../../assets/img/project5.png';
 import Project6 from '../../assets/img/project6.png';
 import Project7 from '../../assets/img/project7.png';
 
+import LevityImg from '../../assets/img/levity2.png';
+
 function Projects() {
     const projects: ProjectData[] = [
+        {
+            id: 0,
+            title: 'Levity - Online Weight Loss Platform',
+            description:
+                'eCommerce REST API for the Glorious Store. This is a full-stack project that uses Node.js, Express, and JWT used for Authentication.',
+            tech: ['Node.js', 'Express.js', 'EJS', 'Mocha & Chai'],
+            image: LevityImg,
+            github: [
+                {
+                    label: 'Github Repo',
+                    url: ' https://github.com/cagrioz/ecommerce-api',
+                },
+            ],
+        },
         {
             id: 1,
             title: 'Glorious Store eCommerce REST API',
@@ -40,39 +56,7 @@ function Projects() {
             ],
             demo_url: 'https://airbnb-dev.vercel.app/',
         },
-        {
-            id: 3,
-            title: 'Rache Premium HTML & WordPress Blog Theme',
-            description:
-                'A Blog design coded in both WordPress and plain HTML, CSS, JS tech stack. This is a custom theme designed & developed by me and accepted by Envato Market and published.',
-            tech: ['HTML5', 'CSS3 / Bootstrap', 'JS (jQuery)', 'PHP / WordPress'],
-            image: Project3,
-            github: [
-                {
-                    label: 'Github HTML',
-                    url: ' https://github.com/cagrioz/Rache-HTML',
-                },
-                {
-                    label: 'Github WordPress',
-                    url: ' https://github.com/cagrioz/Rache',
-                },
-            ],
-            demo_url: 'https://cagrioz.com/rache/',
-        },
-        {
-            id: 4,
-            title: 'Callie Advanced Blog With Instagram Stories',
-            description:
-                'A Blog design coded in both WordPress and plain HTML, CSS, JS tech stack. This is a custom theme designed & developed by me and accepted by Envato Market and published.',
-            tech: ['HTML5', 'CSS3 / Bootstrap', 'JS (jQuery)', 'PHP / WordPress'],
-            image: Project4,
-            github: [
-                {
-                    label: 'Github WordPress',
-                    url: ' https://github.com/cagrioz/Callie',
-                },
-            ],
-        },
+
         {
             id: 5,
             title: 'SaaS Landing Page Light / Dark Mode in React',
@@ -89,14 +73,6 @@ function Projects() {
             demo_url: 'https://bring-landing.vercel.app',
         },
         {
-            id: 6,
-            title: 'LMS WordPress Website',
-            description: 'A WordPress website that is used for a learning management system with active +10K students.',
-            tech: ['Elementor Builder', 'PHP / WordPress', 'JS (jQuery)', 'CSS3 & Bootstrap'],
-            image: Project6,
-            demo_url: 'https://www.radikaluzem.com',
-        },
-        {
             id: 7,
             title: 'React Native & Expo App',
             description: 'A WordPress website that is used for a learning management system with active +10K students.',
@@ -106,6 +82,20 @@ function Projects() {
                 {
                     label: 'Github Repo',
                     url: ' https://github.com/cagrioz/FitPods',
+                },
+            ],
+        },
+        {
+            id: 4,
+            title: 'Callie Advanced Blog With Instagram Stories',
+            description:
+                'A Blog design coded in both WordPress and plain HTML, CSS, JS tech stack. This is a custom theme designed & developed by me and accepted by Envato Market and published.',
+            tech: ['HTML5', 'CSS3 / Bootstrap', 'JS (jQuery)', 'PHP / WordPress'],
+            image: Project4,
+            github: [
+                {
+                    label: 'Github WordPress',
+                    url: ' https://github.com/cagrioz/Callie',
                 },
             ],
         },

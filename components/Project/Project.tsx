@@ -5,10 +5,13 @@ import { ProjectData, GithubRepo } from '../../typings';
 function Project({ id, title, description, image, github, demo_url, tech }: ProjectData) {
     return (
         <div className="flex flex-col sm:flex-row gap-12">
-            <div className="relative h-[300px] sm:basis-5/12 basis-12/12 shrink-0 hover:scale-105 transition duration-200">
-                <a href={demo_url}>
-                    <Image className="h-full" src={image} alt={title} layout="fill" objectFit="contain" />
-                </a>
+            <div className="relative h-fit sm:basis-5/12 basis-12/12 shrink-0 hover:scale-105 transition duration-200">
+                {demo_url && (
+                    <a href={demo_url}>
+                        <Image className="h-full" src={image} alt={title} objectFit="contain" />
+                    </a>
+                )}
+                {!demo_url && <Image src={image} alt={title} className="rounded-[10px] overflow-hidden" />}
             </div>
             <div className="text-lg font-light text-gray-300 tracking-wide">
                 <h2 className="text-gray-200 text-4xl font-bold tracking-wide mb-3">{title}</h2>

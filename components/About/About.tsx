@@ -1,20 +1,20 @@
 import Image from 'next/image';
 import React from 'react';
 
-import BannerImg from '../../assets/img/bball.jpg';
+import BannerImg from '../../assets/img/basketball_star.jpg';
 
 import { CheckIcon } from '@heroicons/react/solid';
 
 function About() {
     return (
         <section className="flex h-fit py-20 bg-gradient-to-l from-slate-800 to-slate-900">
-            <div className="container flex flex-col sm:flex-row gap-10 items-top justify-between">
-                <div className="relative w-full sm:basis-2/5 h-[300px] sm:h-[400px] rounded-lg overflow-hidden">
+            <div className="container flex flex-col sm:flex-row gap-10 items-center justify-between">
+                <div className="relative w-full sm:basis-[45%] shrink-0 h-[450px] sm:h-[600px] rounded-lg overflow-hidden">
                     <Image src={BannerImg} alt="Cagri Oz" layout="fill" objectFit="cover" />
                 </div>
-                <div className="sm:basis-3/5">
+                <div className="sm:basis-[55%]">
                     <h3 className="text-3xl sm:text-4xl text-gray-100 font-extrabold">
-                        I'm <span className="fancy-title-sub">Cagri Oz</span>
+                        I'm <span className="fancy-title-sub">Cagri Ozarpaci</span>
                     </h3>
                     <div className="text-lg font-light text-gray-300 mt-5 tracking-wide flex flex-col gap-3">
                         <p>
@@ -29,27 +29,27 @@ function About() {
                         <ul className="grid grid-cols-2 gap-x-2 gap-y-3">
                             <li className="flex items-center gap-2">
                                 <CheckIcon className="h-5 w-5 inline-flex bg-sky-400 text-white rounded-full" />{' '}
-                                JavaScript
+                                React.js
                             </li>
                             <li className="flex items-center gap-2">
                                 <CheckIcon className="h-5 w-5 inline-flex bg-sky-400 text-white rounded-full" />
+                                Next.js
+                            </li>
+                            <li className="flex items-center gap-2">
+                                <CheckIcon className="h-5 w-5 inline-flex bg-sky-400 text-white rounded-full" />{' '}
                                 TypeScript
                             </li>
                             <li className="flex items-center gap-2">
-                                <CheckIcon className="h-5 w-5 inline-flex bg-sky-400 text-white rounded-full" />{' '}
-                                SASS/SCSS
+                                <CheckIcon className="h-5 w-5 inline-flex bg-sky-400 text-white rounded-full" />
+                                Redux/Context API
                             </li>
                             <li className="flex items-center gap-2">
-                                <CheckIcon className="h-5 w-5 inline-flex bg-sky-400 text-white rounded-full" /> NextJS
-                                / React
+                                <CheckIcon className="h-5 w-5 inline-flex bg-sky-400 text-white rounded-full" /> MongoDB
+                                / Firebase
                             </li>
                             <li className="flex items-center gap-2">
-                                <CheckIcon className="h-5 w-5 inline-flex bg-sky-400 text-white rounded-full" /> Context
-                                / Express
-                            </li>
-                            <li className="flex items-center gap-2">
-                                <CheckIcon className="h-5 w-5 inline-flex bg-sky-400 text-white rounded-full" />{' '}
-                                Elementor
+                                <CheckIcon className="h-5 w-5 inline-flex bg-sky-400 text-white rounded-full" /> REST /
+                                GraphQL
                             </li>
                         </ul>
 
