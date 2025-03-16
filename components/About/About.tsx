@@ -17,12 +17,15 @@ function About() {
                         I'm <span className="fancy-title-sub">Cagri Ozarpaci</span>
                     </h3>
                     <div className="text-lg font-light text-gray-300 mt-5 tracking-wide flex flex-col gap-3">
+                        <p className="font-bold text-white text-xl">🚀 Full-Stack Developer | Growth Engineer</p>
                         <p>
-                            😎 I have been coding for nearly 6 years. I'm a full-stack developer with undying passion of
-                            learning new stuff! Completed plenty of succesfull projects as a freelancer with raving
-                            5-star reviews.
+                            I build scalable, high-performance web apps with a focus on frontend-heavy{' '}
+                            <b className="font-bold text-white">full-stack development.</b> With 6+ years of experience,
+                            I’ve worked on{' '}
+                            <b className="font-bold text-white">SaaS, eCommerce, and growth-driven platforms</b>, and
+                            <b className="font-bold text-white">optimizing conversion rates.</b>
                         </p>
-                        <p>A Thinker and engineer who is huge fan of technology and uses 🏀 & 🎙 as a fuel!</p>
+                        <p>When I'm not coding, you’ll find me on the basketball court 🏀 or listening deep music 🎧</p>
 
                         <p className="font-semibold underline">My preferred weapons of choice 👇</p>
 

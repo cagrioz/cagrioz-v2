@@ -6,10 +6,12 @@ import Project2 from '../../assets/img/project2.png';
 import Project3 from '../../assets/img/project3.png';
 import Project4 from '../../assets/img/project4.png';
 import Project5 from '../../assets/img/project5.png';
-import Project6 from '../../assets/img/project6.png';
 import Project7 from '../../assets/img/project7.png';
 
 import LevityImg from '../../assets/img/levity2.png';
+import MedExpressImg from '../../assets/img/medexpress.jpg';
+import RocketRxImg from '../../assets/img/rocketrx.jpg';
+import UrbxImg from '../../assets/img/urbx.jpg';
 
 function Projects() {
     const projects: ProjectData[] = [
@@ -17,15 +19,33 @@ function Projects() {
             id: 0,
             title: 'Levity - Online Weight Loss Platform',
             description:
-                'eCommerce REST API for the Glorious Store. This is a full-stack project that uses Node.js, Express, and JWT used for Authentication.',
-            tech: ['Node.js', 'Express.js', 'EJS', 'Mocha & Chai'],
+                'Levity is a healthcare platform specialized in weight loss. It is part of HeliosX Group. I have developed the front-end. Conducted A/B tests and improved the conversion rates.',
+            tech: ['React.js', 'Next.js', 'TailwindCSS', 'A/B Testing'],
             image: LevityImg,
-            github: [
-                {
-                    label: 'Github Repo',
-                    url: ' https://github.com/cagrioz/ecommerce-api',
-                },
-            ],
+        },
+        {
+            id: 0,
+            title: 'MedExpress - Healthcare Platform',
+            description:
+                "MedExpress is UK's leading healthcare platform, I have worked as a Growth Engineer and participated in the development of the frontend and backend. I have also conducted A/B tests and improved the conversion rates.",
+            tech: ['React.js', 'Next.js', 'AWS (S3, Lambda)', 'Node.js'],
+            image: MedExpressImg,
+        },
+        {
+            id: 0,
+            title: 'RocketRx - Men Healthcare Platform',
+            description:
+                "RocketRx is's leading healthcare platform, I have worked as a Growth Engineer and participated in the development of the frontend and backend. I have also conducted A/B tests and improved the conversion rates.",
+            tech: ['React.js', 'Next.js', 'AWS (S3, Lambda)', 'Node.js'],
+            image: RocketRxImg,
+        },
+        {
+            id: 0,
+            title: 'Urbx - AI-Powered Logistics',
+            description:
+                "RocketRx is's leading healthcare platform, I have worked as a Growth Engineer and participated in the development of the frontend and backend. I have also conducted A/B tests and improved the conversion rates.",
+            tech: ['React.js', 'Next.js', 'AWS (S3, Lambda)', 'Node.js'],
+            image: UrbxImg,
         },
         {
             id: 1,
