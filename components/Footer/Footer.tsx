@@ -14,7 +14,7 @@ const Footer = () => {
                 <SocialIcon url="https://www.tiktok.com/@cagrioz30" fgColor="#ccc" className="footer-icon" />
                 <SocialIcon url="mailto:devcagri@gmail.com" fgColor="#ccc" className="footer-icon" />
                 <SocialIcon
-                    url="https://wa.me/16282610782"
+                    url="https://wa.me/14152304342"
                     network="whatsapp"
                     bgColor="#1ca14d"
                     fgColor="#ccc"

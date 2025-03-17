@@ -57,7 +57,7 @@ function About() {
                         </ul>
 
                         <div className="mt-3">
-                            <a className="secondary-cta" href="https://github.com/cagrioz">
+                            <a className="secondary-cta" href="https://github.com/cagrioz" target="_blank">
                                 My Github
                             </a>
                         </div>

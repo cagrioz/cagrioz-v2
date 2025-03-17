@@ -7,7 +7,7 @@ function Project({ id, title, description, image, github, demo_url, tech }: Proj
         <div className="flex flex-col sm:flex-row gap-12">
             <div className="relative h-fit sm:basis-5/12 basis-12/12 shrink-0 hover:scale-105 transition duration-200">
                 {demo_url && (
-                    <a href={demo_url}>
+                    <a href={demo_url} target="_blank">
                         <Image className="h-full" src={image} alt={title} objectFit="contain" />
                     </a>
                 )}
@@ -24,6 +24,7 @@ function Project({ id, title, description, image, github, demo_url, tech }: Proj
                                 key={repo.url}
                                 href={repo.url}
                                 className="font-bold mt-4 block hover:text-gray-400 transition duration-200"
+                                target="_blank"
                             >
                                 🔗 {repo.label}
                             </a>
@@ -39,7 +40,7 @@ function Project({ id, title, description, image, github, demo_url, tech }: Proj
                 </ul>
 
                 {demo_url && (
-                    <a className="secondary-cta inline-block" href={demo_url}>
+                    <a className="secondary-cta inline-block" href={demo_url} target="_blank">
                         View Live
                     </a>
                 )}

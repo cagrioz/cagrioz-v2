@@ -38,7 +38,8 @@ function Header() {
             </div>
             <div className="mx-auto">
                 <a
-                    href="https://wa.me/+16282610782"
+                    target="_blank"
+                    href="https://wa.me/+14152304342"
                     className="shadow-md shadow-cyan-900 border-0 inline-flex py-4 px-7 lg:py-5 lg:px-12 lg:text-2xl bg-cyan-600 hover:bg-cyan-500 hover:scale-105 transition duration-200 ease-in-out text-white font-bold rounded-[0.5rem]"
                 >
                     Contact me!

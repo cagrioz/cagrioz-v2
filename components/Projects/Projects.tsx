@@ -1,121 +1,75 @@
 import { ProjectData } from '../../typings';
 import Project from '../Project/Project';
 
-import Project1 from '../../assets/img/project1.png';
-import Project2 from '../../assets/img/project2.png';
-import Project3 from '../../assets/img/project3.png';
-import Project4 from '../../assets/img/project4.png';
-import Project5 from '../../assets/img/project5.png';
-import Project7 from '../../assets/img/project7.png';
-
 import LevityImg from '../../assets/img/levity2.png';
 import MedExpressImg from '../../assets/img/medexpress.jpg';
 import RocketRxImg from '../../assets/img/rocketrx.jpg';
 import UrbxImg from '../../assets/img/urbx.jpg';
+import OsmosisImg from '../../assets/img/osmosis.png';
+import VeslImg from '../../assets/img/vesl.jpg';
+import OSFImg from '../../assets/img/ecomm.jpg';
 
 function Projects() {
     const projects: ProjectData[] = [
         {
-            id: 0,
+            id: 1,
             title: 'Levity - Online Weight Loss Platform',
             description:
-                'Levity is a healthcare platform specialized in weight loss. It is part of HeliosX Group. I have developed the front-end. Conducted A/B tests and improved the conversion rates.',
-            tech: ['React.js', 'Next.js', 'TailwindCSS', 'A/B Testing'],
+                'Levity is a healthcare platform specializing in weight loss. As part of the HeliosX Group, I developed the front-end, conducted A/B tests, and optimized conversion rates.',
+            tech: ['React.js', 'Next.js', 'TailwindCSS', 'GraphQL'],
             image: LevityImg,
         },
         {
-            id: 0,
-            title: 'MedExpress - Healthcare Platform',
+            id: 2,
+            title: 'MedExpress - Leading UK Healthcare Platform',
             description:
-                "MedExpress is UK's leading healthcare platform, I have worked as a Growth Engineer and participated in the development of the frontend and backend. I have also conducted A/B tests and improved the conversion rates.",
-            tech: ['React.js', 'Next.js', 'AWS (S3, Lambda)', 'Node.js'],
+                "MedExpress is one of the UK's top healthcare platforms. As a Growth Engineer, I contributed to both front-end and back-end development, implemented A/B testing, and improved user experience and conversion rates.",
+            tech: ['React.js', 'Next.js', 'TailwindCSS', 'A/B Testing', 'AWS (S3, Lambda)', 'GraphQL'],
             image: MedExpressImg,
         },
         {
-            id: 0,
-            title: 'RocketRx - Men Healthcare Platform',
+            id: 3,
+            title: 'RocketRx - Men’s Health Platform',
             description:
-                "RocketRx is's leading healthcare platform, I have worked as a Growth Engineer and participated in the development of the frontend and backend. I have also conducted A/B tests and improved the conversion rates.",
-            tech: ['React.js', 'Next.js', 'AWS (S3, Lambda)', 'Node.js'],
+                "RocketRx is a healthcare platform focused on men's wellness. I worked on full-stack development, enhancing both the front-end and back-end. Additionally, I ran A/B tests to improve performance and conversion rates.",
+            tech: ['React.js', 'Next.js', 'TailwindCSS', 'A/B Testing', 'AWS (S3, Lambda)', 'GraphQL'],
             image: RocketRxImg,
         },
         {
-            id: 0,
-            title: 'Urbx - AI-Powered Logistics',
+            id: 4,
+            title: 'Urbx - AI-Powered Logistics Platform',
             description:
-                "RocketRx is's leading healthcare platform, I have worked as a Growth Engineer and participated in the development of the frontend and backend. I have also conducted A/B tests and improved the conversion rates.",
-            tech: ['React.js', 'Next.js', 'AWS (S3, Lambda)', 'Node.js'],
+                'Urbx is an AI-driven logistics platform optimizing supply chain management. I was involved in developing the front-end and integrating AI-based logistics solutions.',
+            tech: ['React.js', 'Next.js', 'GitLab CI/CD', 'Node.js'],
             image: UrbxImg,
         },
         {
-            id: 1,
-            title: 'Glorious Store eCommerce REST API',
-            description:
-                'eCommerce REST API for the Glorious Store. This is a full-stack project that uses Node.js, Express, and JWT used for Authentication.',
-            tech: ['Node.js', 'Express.js', 'EJS', 'Mocha & Chai'],
-            image: Project2,
-            github: [
-                {
-                    label: 'Github Repo',
-                    url: ' https://github.com/cagrioz/ecommerce-api',
-                },
-            ],
-        },
-        {
-            id: 2,
-            title: 'Airbnb Frontend Clone With Search',
-            description:
-                "A clone of Airbnb's frontend with search functionality that iscreated by using Next.js, TypeScript, TailwindCSS. For the state managements, React's Context API is used.",
-            tech: ['React.js', 'Next.js', 'TailwindCSS', 'TypeScript'],
-            image: Project1,
-            github: [
-                {
-                    label: 'Github Repo',
-                    url: ' https://github.com/cagrioz/airbnb-dev',
-                },
-            ],
-            demo_url: 'https://airbnb-dev.vercel.app/',
-        },
-
-        {
             id: 5,
-            title: 'SaaS Landing Page Light / Dark Mode in React',
+            title: 'Osmosis - Medical Education by Elsevier',
             description:
-                'A React front-end that built using React and SCSS that has a light and dark mode dynamic switch. For the state management, React Context API has been used.',
-            tech: ['ReactJS', 'JavaScript', 'React Context API', 'SCSS / SASS'],
-            image: Project5,
-            github: [
-                {
-                    label: 'Github Repo',
-                    url: ' https://github.com/cagrioz/bring-landing',
-                },
-            ],
-            demo_url: 'https://bring-landing.vercel.app',
+                'Osmosis is a medical education platform by Elsevier. My role included developing the front-end, implementing scalable architecture, and improving user engagement.',
+            tech: ['React.js', 'Redux', 'Next.js', 'Docker'],
+            image: OsmosisImg,
+        },
+        {
+            id: 6,
+            title: 'Vesl - Next-Gen 3PL Solutions',
+            description:
+                'Vesl is a logistics and supply chain management platform. I contributed to the front-end and back-end development, ensuring seamless user experience and system scalability.',
+            tech: ['React.js', 'Next.js', 'TailwindCSS', 'Netlify'],
+            image: VeslImg,
         },
         {
             id: 7,
-            title: 'React Native & Expo App',
-            description: 'A WordPress website that is used for a learning management system with active +10K students.',
-            tech: ['React Native', 'Expo', 'React Navigation', 'CSS3'],
-            image: Project7,
-            github: [
-                {
-                    label: 'Github Repo',
-                    url: ' https://github.com/cagrioz/FitPods',
-                },
-            ],
-        },
-        {
-            id: 4,
-            title: 'Callie Advanced Blog With Instagram Stories',
+            title: 'eCommerce REST API - Glorious Store',
             description:
-                'A Blog design coded in both WordPress and plain HTML, CSS, JS tech stack. This is a custom theme designed & developed by me and accepted by Envato Market and published.',
-            tech: ['HTML5', 'CSS3 / Bootstrap', 'JS (jQuery)', 'PHP / WordPress'],
-            image: Project4,
+                'A full-stack eCommerce REST API built for the Glorious Store. It includes authentication with JWT, secure transactions, and seamless API integration for handling orders and users.',
+            tech: ['Node.js', 'Express.js', 'RESTful API', 'Mocha & Chai'],
+            image: OSFImg,
             github: [
                 {
-                    label: 'Github WordPress',
-                    url: ' https://github.com/cagrioz/Callie',
+                    label: 'GitHub Repository',
+                    url: 'https://github.com/cagrioz/ecommerce-api',
                 },
             ],
         },
