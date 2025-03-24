@@ -2,6 +2,7 @@ import OSFLogo from '../../assets/img/osf.jpeg';
 import EnvatoLogo from '../../assets/img/envato.png';
 import UpworkLogo from '../../assets/img/upwork.png';
 import HeliosXLogo from '../../assets/img/heliosx.jpeg';
+import TopRatedPlusBadge from '../../assets/img/top-rated-plus.png';
 import Image from 'next/image';
 
 function Experiences() {
@@ -20,6 +21,7 @@ function Experiences() {
                 'Specialized in <strong>Figma to React/WordPress conversions</strong> and <strong>SEO-friendly websites</strong>.',
             ],
             url: 'https://upwork.com/freelancers/cagrioz',
+            badge: TopRatedPlusBadge,
         },
         {
             id: 2,
@@ -91,9 +93,21 @@ function Experiences() {
                     {experiences.map((experience) => (
                         <div
                             key={`experience-${experience.id}`}
-                            className="flex flex-col items-start border-b border-dotted border-slate-600 py-14 px-14 bg-slate-800 rounded-lg shadow-lg"
+                            className="flex flex-col items-start border-b border-dotted border-slate-600 py-14 px-8 sm:px-14 bg-slate-800 rounded-lg shadow-lg relative"
                         >
-                            <div className="flex gap-6 items-center mb-4">
+                            {experience.badge && (
+                                <div className="absolute top-4 right-4 hidden sm:block sm:right-12">
+                                    <div className="relative h-32 w-32">
+                                        <Image
+                                            src={experience.badge}
+                                            alt="Top Rated Plus"
+                                            layout="fill"
+                                            objectFit="cover"
+                                        />
+                                    </div>
+                                </div>
+                            )}
+                            <div className="flex flex-col sm:flex-row sm:gap-6 sm:items-center mb-4 gap-4">
                                 <div>
                                     <a href={experience.url || '#'} target="_blank" rel="noopener noreferrer">
                                         <div className="relative h-20 w-20 rounded-lg overflow-hidden">
